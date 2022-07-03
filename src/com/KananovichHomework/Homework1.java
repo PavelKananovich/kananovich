@@ -21,7 +21,7 @@ public class Homework1 {
         task15();
         task16();
         task17();
-        //  task18();
+        task18();
 
     }
 
@@ -320,10 +320,25 @@ public class Homework1 {
         System.out.println("максимальный элемент массива " + max);
         for (double m : arr) {
 
-            System.out.println("элемент массива разделенный на максимальное значение "+ m / max);
+            System.out.println("элемент массива разделенный на максимальное значение " + m / max);
 
 
         }
+    }
+
+    public static void task18() {
+        //Напишите метод переводящий рубли в доллары по заданному курсу.
+        // В качестве аргументов укажите кол-во рублей и курс.
+        Scanner scanner1 = new Scanner(System.in);
+        System.out.println("Введите сумму в рублях");
+        double a = scanner1.nextDouble();
+        Scanner scanner2 = new Scanner(System.in);
+        System.out.println("Введите курс доллара");
+        double b = scanner2.nextDouble();
+        double c = a / b;
+        System.out.println("Получившаяся сумма в долларах " + c);
+
+
     }
 }
 
