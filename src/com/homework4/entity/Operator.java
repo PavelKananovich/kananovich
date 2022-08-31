@@ -1,6 +1,6 @@
 package com.homework4.entity;
 
-import util.ThreedUtil;
+import com.homework4.util.ThreedUtil;
 
 public class Operator implements Runnable {
 
