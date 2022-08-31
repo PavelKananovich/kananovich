@@ -17,5 +17,4 @@ public class Main {
         carSecond.drift();
         carSecond.increaseSpeed();
         carSecond.stopDrive();
-    }
-}
+    }}
